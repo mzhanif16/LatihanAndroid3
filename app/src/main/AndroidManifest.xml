@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LatihanAndroid">
-        <activity android:name=".AktivityKeDua"></activity>
+        <activity
+            android:name=".GaleriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KameraActivity"
+            android:exported="false" />
+        <activity android:name=".AktivityKeDua" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
