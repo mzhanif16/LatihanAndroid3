@@ -26,6 +26,14 @@
         android:gravity="center"
         android:textColor="@color/primaryDark"/>
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center"
+        android:text="Create an new account" />
+
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="match_parent"
@@ -73,6 +81,81 @@
         android:textAllCaps="false"
         android:background="@drawable/bg_button"
         android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textViewOr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_black_bold"
+        android:gravity="center"
+        android:textColor="#9098B1"
+        android:text="-OR-" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login in with Google"
+        android:paddingLeft="20dp"
+        android:fontFamily="@font/poppins_black_bold"
+        android:drawableStart="@drawable/google"
+        android:textSize="18sp"
+        android:textColor="#9098B1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_withlogin"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login in with Facebook"
+        android:paddingLeft="20dp"
+        android:fontFamily="@font/poppins_black_bold"
+        android:drawableStart="@drawable/fb"
+        android:textSize="18sp"
+        android:textColor="#9098B1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_withlogin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_black_bold"
+        android:textColor="#40BFFF"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="#9098B1"
+            android:text="Dont have a account? "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_black_bold"
+            android:textColor="#40BFFF"
+            android:text="Register"/>
+
+    </LinearLayout>
+
+
+
 
 
 </LinearLayout>

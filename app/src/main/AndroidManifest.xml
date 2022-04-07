@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LatihanAndroid">
-        <activity android:name=".tugas1.LoginActivity"
-            android:theme="@style/Theme.LatihanAndroid"></activity>
-<!--        <activity android:name=".tugas1.SplashScreen" />-->
+        <activity android:name=".tugas1.HomeActivity"></activity>
+        <activity android:name=".tugas1.RegistActivity" />
+        <activity
+            android:name=".tugas1.LoginActivity"
+            android:theme="@style/Theme.LatihanAndroid" /> <!-- <activity android:name=".tugas1.SplashScreen" /> -->
         <activity
             android:name=".GaleriActivity"
             android:exported="false" />
@@ -21,8 +23,8 @@
         <activity android:name=".AktivityKeDua" />
         <activity
             android:name=".tugas1.SplashScreen"
-            android:theme="@style/Theme.LatihanAndroidSplash"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.LatihanAndroidSplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
