@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import ac.id.pnj.latihanandroid.R;
+
 public class HomeActivity extends AppCompatActivity {
 
     @Override
