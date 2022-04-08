@@ -11,7 +11,7 @@
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="60dp"
         app:srcCompat="@drawable/icon" />
 
     <TextView
@@ -83,7 +83,7 @@
         android:textColor="@color/white"/>
 
     <TextView
-        android:id="@+id/textViewOr"
+        android:id="@+id/txtTanggal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -93,7 +93,7 @@
         android:text="-OR-" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnGoogle"
+        android:id="@+id/btnTanggal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login in with Google"
@@ -109,7 +109,7 @@
         android:background="@drawable/bg_withlogin"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnFacebook"
+        android:id="@+id/btnJam"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login in with Facebook"
@@ -125,6 +125,7 @@
         android:background="@drawable/bg_withlogin"/>
 
     <TextView
+        android:id="@+id/txtJam"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Forgot Password?"

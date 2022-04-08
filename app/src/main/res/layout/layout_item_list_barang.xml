@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgProduk"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@color/black"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primaryDark"
+            android:fontFamily="@font/poppins_black_bold"
+            android:text="Lorem Ipsum Dolar "
+            android:textSize="18sp"/>
+
+        <RatingBar
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="3"
+            android:stepSize="1"
+            android:layout_marginTop="10dp"
+            style="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:id="@+id/txtHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="$200"
+            android:textSize="16sp"
+            android:textColor="@color/primaryBlue"
+            android:fontFamily="@font/poppins_black_bold"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
