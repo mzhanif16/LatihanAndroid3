@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,7 +19,7 @@ import ac.id.pnj.latihanandroid.R;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button btnTanggal,btnJam;
+    Button btnTanggal,btnJam,btnSignIn;
     TextView txtTanggal,txtJam;
 
     @Override
@@ -26,6 +27,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         btnTanggal = findViewById(R.id.btnTanggal);
+        btnSignIn = findViewById(R.id.btnSignIn);
         txtTanggal = findViewById(R.id.txtTanggal);
         txtJam = findViewById(R.id.txtJam);
         btnJam = findViewById(R.id.btnJam);
@@ -46,6 +48,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         calendar.get(Calendar.HOUR_OF_DAY),
                         calendar.get(Calendar.MINUTE),true).show();
                 break;
+            case R.id.btnSignIn:
+                Intent intent = new Intent(this, HomeActivity.class);
+                startActivity(intent);
         }
     }
 
